@@ -31,7 +31,6 @@ export const Home = () => {
         more about me and my teaching philosophy, rates, and check out some FREE
         video lessons.
       </p>
-      {/* <iframe></iframe> */}
       <iframe
         class="instagram-media instagram-media-rendered"
         id="instagram-embed-0"

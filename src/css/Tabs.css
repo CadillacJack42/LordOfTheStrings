@@ -8,7 +8,15 @@
   width: 100%;
   height: 87vh;
   z-index: 1;
-  background-color: rgb(115, 180, 255);
+  /* background-color: rgb(115, 180, 255); */
+  background: linear-gradient(
+    to right,
+    burlywood,
+    moccasin,
+    moccasin,
+    moccasin,
+    burlywood
+  );
 }
 
 .tabs-row {
@@ -19,9 +27,9 @@
   justify-content: center;
   position: relative;
   z-index: 100;
-  background-color: rgb(115, 180, 255);
+  /* background-color: rgb(115, 180, 255); */
   border-bottom: 1px solid black;
-  border-color: rgb(185, 210, 280);
+  /* border-color: rgb(185, 210, 280); */
 }
 
 .tabs {
@@ -31,7 +39,7 @@
   border-radius: 3px 3px 0 0;
   box-sizing: border-box;
   border-style: ridge;
-  border-color: rgb(185, 210, 280);
+  /* border-color: rgb(185, 210, 280); */
   border-bottom: none;
 }
 
@@ -44,8 +52,8 @@
 
 .active-tab {
   border-bottom: none;
-  background-color: rgb(185, 210, 280);
-  border-color: rgb(134, 185, 247);
+  /* background-color: rgb(185, 210, 280); */
+  /* border-color: rgb(134, 185, 247); */
 }
 
 .tabs:hover {
