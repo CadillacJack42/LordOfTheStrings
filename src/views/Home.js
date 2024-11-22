@@ -1,9 +1,15 @@
+import "../css/Home.css";
+
 export const Home = () => {
   return (
     <div id="home-container">
       <h1>Home</h1>
-      <p>Welcome to Lord of the Strings</p>
-      {/* <img></img> */}
+      <p>Welcome to Lord of the Strings!</p>
+      <img
+        src="./gabeIsaac.jpg"
+        alt="Gabe playing guitar on stage"
+        id="homepage-gabe-pic"
+      ></img>
       <p>
         Hello! My name is Gabriel Isaac. Thanks for visting my music lesson
         site.
@@ -13,7 +19,7 @@ export const Home = () => {
         various recording credits, and have offered guitar, bass, ukulele, ear
         training, songwriting, and music theory lessons in person and online for
         the last 20 years. I believe that with my expert guidance, each of my
-        students can become a "Lord of the Strings".
+        students can become a<i>"Lord of the Strings"</i> .
       </p>
       <p>
         So if you are looking for high quality guitar and music lessons that
@@ -32,19 +38,18 @@ export const Home = () => {
         video lessons.
       </p>
       <iframe
-        class="instagram-media instagram-media-rendered"
+        className="instagram-media instagram-media-rendered"
         id="instagram-embed-0"
         title="Embedded-Instagram-Profile"
         src="https://www.instagram.com/gabe_teaches_guitar/embed/?cr=1&amp;v=14&amp;wp=540&amp;rd=https%3A%2F%2Fwww.thelordofthestrings.com&amp;rp=%2Findex.html#%7B%22ci%22%3A0%2C%22os%22%3A1662%2C%22ls%22%3A33.30000019073486%2C%22le%22%3A56.40000009536743%7D"
         allowtransparency="true"
-        allowfullscreen="true"
-        frameborder="0"
+        allowFullScreen={true}
         height="410"
         data-instgrm-payload-id="instagram-media-payload-0"
         style={{
           background: "white",
-          maxWidth: "540px",
           width: "30%",
+          maxWidth: "540px",
           borderRadius: "3px",
           border: "1px solid rgb(219, 219, 219)",
           boxShadow: "none",

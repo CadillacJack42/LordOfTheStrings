@@ -9,7 +9,7 @@ export const Tabs = ({ page }) => {
   };
 
   return (
-    <div className="tabs-container">
+    <div id="tabs-container">
       <div className="tabs-row">
         {page.tabs.map((tab, i) => {
           return (

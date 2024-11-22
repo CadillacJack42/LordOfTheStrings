@@ -63,6 +63,7 @@ export const FreeLessons = () => {
   const mapIframes = videoLessonArray.map((video) => {
     return (
       <span
+        key={video.title}
         id="individual-lesson-video-iframe"
         style={{
           margin: "5px",
@@ -71,10 +72,10 @@ export const FreeLessons = () => {
         <iframe
           src={video.source}
           title={video.title}
-          frameborder="0"
+          width={"90%"}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
         ></iframe>
         <p className="video-lesson-array-titles">{video.title}</p>
       </span>
