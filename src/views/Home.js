@@ -32,6 +32,29 @@ export const Home = () => {
         video lessons.
       </p>
       {/* <iframe></iframe> */}
+      <iframe
+        class="instagram-media instagram-media-rendered"
+        id="instagram-embed-0"
+        title="Embedded-Instagram-Profile"
+        src="https://www.instagram.com/gabe_teaches_guitar/embed/?cr=1&amp;v=14&amp;wp=540&amp;rd=https%3A%2F%2Fwww.thelordofthestrings.com&amp;rp=%2Findex.html#%7B%22ci%22%3A0%2C%22os%22%3A1662%2C%22ls%22%3A33.30000019073486%2C%22le%22%3A56.40000009536743%7D"
+        allowtransparency="true"
+        allowfullscreen="true"
+        frameborder="0"
+        height="410"
+        data-instgrm-payload-id="instagram-media-payload-0"
+        style={{
+          background: "white",
+          maxWidth: "540px",
+          width: "30%",
+          borderRadius: "3px",
+          border: "1px solid rgb(219, 219, 219)",
+          boxShadow: "none",
+          display: "block",
+          margin: "0px 0px 12px",
+          minWidth: "326px",
+          padding: "0px",
+        }}
+      ></iframe>
       {/* <img></img> */}
     </div>
   );
