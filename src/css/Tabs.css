@@ -60,3 +60,7 @@
   width: 100%;
   overflow: auto;
 }
+
+.contact-links {
+  margin: 0 3px;
+}

@@ -84,7 +84,7 @@ export const FreeLessons = () => {
 
   return (
     <div>
-      <h1>Free Video Lessons</h1>
+      {/* <h1>Free Video Lessons</h1> */}
       <div
         id="mapped-video-array"
         style={{

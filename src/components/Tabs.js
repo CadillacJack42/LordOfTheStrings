@@ -10,6 +10,36 @@ export const Tabs = ({ page }) => {
 
   return (
     <div id="tabs-container">
+      <span>
+        <img
+          className="contact-links"
+          src="./yelp.jpg"
+          alt="Check out The Lord of the Strings on Yelp"
+          width="125"
+          height="65"
+        ></img>
+        <img
+          className="contact-links"
+          src="./Youtube.png"
+          alt="Subscribe to me on YouTube"
+          width="125"
+          height="65"
+        ></img>
+        <img
+          className="contact-links"
+          src="/Instagram.png"
+          alt=""
+          width="125"
+          height="65"
+        ></img>
+        <img
+          className="contact-links"
+          src="./facelogo.jpg"
+          alt=""
+          width="125"
+          height="65"
+        ></img>
+      </span>
       <div className="tabs-row">
         {page.tabs.map((tab, i) => {
           return (

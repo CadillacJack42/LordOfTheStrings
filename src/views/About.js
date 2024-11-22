@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      {/* <h1>About</h1> */}
       {/* <img></img> */}
       <p>
         Gabriel Isaac, owner/head instructor of The Lord of the Strings, is a

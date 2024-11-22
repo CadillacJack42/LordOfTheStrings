@@ -1,7 +1,7 @@
 export const Philosophy = () => {
   return (
     <div>
-      <h1>Philosophy</h1>
+      {/* <h1>Philosophy</h1> */}
       <p>
         I have been teaching music for over 20 years and can get you playing in
         no time. Typically, beginning students start out by learning basic

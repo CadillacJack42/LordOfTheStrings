@@ -3,7 +3,7 @@ import "../css/Home.css";
 export const Home = () => {
   return (
     <div id="home-container">
-      <h1>Home</h1>
+      {/* <h1>Home</h1> */}
       <p>Welcome to Lord of the Strings!</p>
       <img
         src="./gabeIsaac.jpg"

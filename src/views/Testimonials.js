@@ -1,7 +1,7 @@
 export const Testimonials = () => {
   return (
     <div>
-      <h1>Testimonials</h1>
+      {/* <h1>Testimonials</h1> */}
       <p>
         I have taken bass lessons with Gabe for about two years. During that
         time, he taught me how to play bass, the basics of guitar, and, most
