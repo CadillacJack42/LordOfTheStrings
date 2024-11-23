@@ -14,8 +14,8 @@ function App() {
     tabs: [
       "Home",
       "About",
-      "Free Lessons",
       "Teaching Philosophy",
+      "Free Lessons",
       "Rates & Policies",
       "Student Testimonials",
       "Contact",
@@ -24,8 +24,8 @@ function App() {
     content: [
       <Home />,
       <About />,
-      <FreeLessons />,
       <Philosophy />,
+      <FreeLessons />,
       <Rates />,
       <Testimonials />,
       <Contact />,

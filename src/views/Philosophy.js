@@ -3,7 +3,7 @@ import "../css/Philosophy.css";
 export const Philosophy = () => {
   return (
     <div id="philosophy-container">
-      {/* <h1>Philosophy</h1> */}
+      <h1 className="tab-labels">Philosophy</h1>
       <p>
         I have been teaching music for over 20 years and can get you playing in
         no time. Typically, beginning students start out by learning basic
@@ -16,12 +16,16 @@ export const Philosophy = () => {
         students, and enjoy seeing the progress each one makes.
       </p>
       <p>
-        I am well versed in most styles: jazz, blues, rock, pop, country, funk,
-        punk, metal, acoustic, latin, prog rock, shred, world, classical, etc.,
-        so I am capable of playing/teaching anything. Often my students bring in
-        songs that I've never heard or played before, and I'm able to teach them
-        how to play them within minutes upon hearing them. I pride myself on
-        being versatile and enabling each student to achieve their own goals.
+        I am well versed in most styles:{" "}
+        <strong>
+          jazz, blues, rock, pop, country, funk, punk, metal, acoustic, latin,
+          prog rock, shred, world, classical,
+        </strong>{" "}
+        etc., so I am capable of playing/teaching anything. Often my students
+        bring in songs that I've never heard or played before, and I'm able to
+        teach them how to play them within minutes upon hearing them. I pride
+        myself on being versatile and enabling each student to achieve their own
+        goals.
       </p>
       <p>During the lessons I cover a variety of topics, including:</p>
       <ul>

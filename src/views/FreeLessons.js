@@ -84,7 +84,19 @@ export const FreeLessons = () => {
 
   return (
     <div>
-      {/* <h1>Free Video Lessons</h1> */}
+      <h1 className="tab-labels">Free Video Lessons</h1>
+      <p>
+        BElow are some Free video lessons to give you a taste of some of the
+        concepts I teach during lessons. There are more videos on{" "}
+        <a
+          href="https://www.youtube.com/@gabe_teaches_guitar"
+          target="_blank"
+          rel="noreferer noreferrer"
+        >
+          my YouTube
+        </a>{" "}
+        channel.
+      </p>
       <div
         id="mapped-video-array"
         style={{

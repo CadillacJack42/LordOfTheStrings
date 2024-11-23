@@ -3,7 +3,7 @@ import "../css/Contact.css";
 export const Contact = () => {
   return (
     <div id="contact-container">
-      <h1>Contact</h1>
+      <h1>Contact Info</h1>
       <p>Please email or call me with any questions or to set up a lesson:</p>
       <a href="mailto:info@lordofthestrings.com">
         <p>info@thelordofthestrings.com</p>

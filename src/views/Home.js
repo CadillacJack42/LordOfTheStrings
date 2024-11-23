@@ -45,6 +45,7 @@ export const Home = () => {
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
+      <p>The Lord Of The Strings Intro</p>
       <iframe
         className="instagram-media instagram-media-rendered"
         id="instagram-embed-0"

@@ -3,7 +3,7 @@ import "../css/Rates.css";
 export const Rates = () => {
   return (
     <div id="rates-container">
-      {/* <h1>Rates and Policies</h1> */}
+      <h1 className="tab-labels">Rates and Policies</h1>
       <h3>General Lesson Info</h3>
       <p>
         I offer 30 minute, 45 minute and 1 hour long lessons. Lesson rates are
