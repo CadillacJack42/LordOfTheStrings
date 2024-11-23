@@ -1,6 +1,8 @@
+import "../css/Philosophy.css";
+
 export const Philosophy = () => {
   return (
-    <div>
+    <div id="philosophy-container">
       {/* <h1>Philosophy</h1> */}
       <p>
         I have been teaching music for over 20 years and can get you playing in

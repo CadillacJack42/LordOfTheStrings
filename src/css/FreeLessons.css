@@ -18,3 +18,18 @@
   width: 90%;
   margin: 3px 0;
 }
+
+@media only screen and (max-width: 650px) {
+  #mapped-video-array {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #mapped-video-array {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+}

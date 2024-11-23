@@ -3,7 +3,7 @@ import "../css/Home.css";
 export const Home = () => {
   return (
     <div id="home-container">
-      {/* <h1>Home</h1> */}
+      <h1 className="tab-labels">Home</h1>
       <p>Welcome to Lord of the Strings!</p>
       <img
         src="./gabeIsaac.jpg"
@@ -38,6 +38,14 @@ export const Home = () => {
         video lessons.
       </p>
       <iframe
+        width="40%"
+        src="https://www.youtube.com/embed/fjInTVYNrV4?si=BoR7ksfWzdH12R7R"
+        title="Lord Of The Strings Intro Youtube Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+      ></iframe>
+      <iframe
         className="instagram-media instagram-media-rendered"
         id="instagram-embed-0"
         title="Embedded-Instagram-Profile"
@@ -49,7 +57,6 @@ export const Home = () => {
         style={{
           background: "white",
           width: "30%",
-          maxWidth: "540px",
           borderRadius: "3px",
           border: "1px solid rgb(219, 219, 219)",
           boxShadow: "none",

@@ -1,6 +1,8 @@
+import "../css/Rates.css";
+
 export const Rates = () => {
   return (
-    <div>
+    <div id="rates-container">
       {/* <h1>Rates and Policies</h1> */}
       <h3>General Lesson Info</h3>
       <p>
