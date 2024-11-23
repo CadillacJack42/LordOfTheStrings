@@ -61,6 +61,16 @@
   overflow: auto;
 }
 
+#contact-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .contact-links {
   margin: 0 3px;
+}
+
+.contact-link-logos {
+  height: 50px;
+  width: 110px;
 }
